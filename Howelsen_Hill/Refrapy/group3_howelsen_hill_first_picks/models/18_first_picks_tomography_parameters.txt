@@ -1,0 +1,26 @@
+18_first_picks - Traveltimes tomography parameters
+
+Mesh options
+Maximum depth 30.00
+# of nodes between receivers 0.33
+Maximum cell size 6.00
+
+Inversion options
+Smoothing (lam) 100.00
+Vertical to horizontal smoothing (zweigh) 0.20
+Velocity at the top of the model 300.00
+Velocity at the bottom of the model 3000.00
+Minimum velocity limit 100.00
+Maximum velocity limit 4000.00
+# of secondary nodes 3
+Maximum # of iterations 20
+
+Contour plot options
+# of nodes for gridding (x) 1000
+# of nodes for gridding (y) 1000
+# of contour levels 30
+
+Model response
+Final iteration 20
+Relative RMSE 16.53
+Chi² 30.34
