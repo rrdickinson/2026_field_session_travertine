@@ -1,0 +1,49 @@
+name: trav_pearson
+
+channels:
+  - conda-forge
+  - gimli
+  - nodefaults
+
+dependencies:
+  # Core Python
+  - python=3.10
+  - pip
+  - ipykernel
+  - jupyterlab
+
+  # GUI support for Refrapy
+  - tk
+
+  # Scientific stack
+  - numpy=1.26.*
+  - scipy
+  - pandas
+  - matplotlib
+
+  # Seismic / refraction / geophysics
+  - obspy
+  - pygimli=1.5.*
+  - pygmt
+  - gmt
+
+  # Geologic map / GIS plotting
+  - rasterio<1.5
+  - geopandas
+  - pyogrio
+  - shapely
+  - pyproj
+  - rioxarray
+  - xarray
+
+  # Image / web utilities
+  - pillow
+  - requests
+
+  # General utilities
+  - tqdm
+  - pytest
+
+  # Refrapy older GUI helper
+  - pip:
+      - Pmw==2.1.1
